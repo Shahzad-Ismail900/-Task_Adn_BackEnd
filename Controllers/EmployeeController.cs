@@ -1,6 +1,7 @@
 ﻿using CRUD.Interfaces;
 using CRUD.Models;
 using CRUD.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace CRUD.Controllers
 {
-
+    [Authorize]
     public class EmployeeController : BaseController
     {
 
@@ -64,7 +65,7 @@ namespace CRUD.Controllers
         //    }
         //}
 
-
+     
         [HttpGet]
         public IActionResult Get()
         {

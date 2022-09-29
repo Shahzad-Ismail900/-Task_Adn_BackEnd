@@ -107,7 +107,6 @@ D:\Task\BackEnd\CRUD\obj\Debug\net5.0\scopedcss\bundle\CRUD.styles.css
 D:\Task\BackEnd\CRUD\obj\Debug\net5.0\CRUD.RazorTargetAssemblyInfo.cache
 D:\Task\BackEnd\CRUD\obj\Debug\net5.0\CRUD.csproj.CopyComplete
 D:\Task\BackEnd\CRUD\obj\Debug\net5.0\CRUD.genruntimeconfig.cache
-D:\Task\BackEnd\CRUD\obj\Debug\net5.0\CRUD.csproj.AssemblyReference.cache
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -115,3 +114,4 @@ D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Task\BackEnd\CRUD\obj\Debug\net5.0\CRUD.csproj.AssemblyReference.cache
