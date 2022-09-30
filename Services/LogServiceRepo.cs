@@ -30,6 +30,7 @@ namespace CRUD.Services
                 _log.Status = obj.Status;
                 _log.Description = obj.Description;
                 _log.LogTime = DateTime.Now;
+                _log.LoggedBy = obj.LoggedBy;
                 _context.LogUserActivity.Add(_log);
 
 

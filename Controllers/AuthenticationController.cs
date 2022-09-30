@@ -38,11 +38,8 @@ namespace CRUD.Controllers
                     return BadResponse("Invalid User..!");
                 }
 
-                Dictionary<string, object> userdic = new Dictionary<string, object>();
-                userdic.Add("token", token);
-                userdic.Add("UserId",1);
-
-                return SucessResponse(userdic);
+               
+                return SucessResponse(token);
             }
             catch (Exception Ex)
             {

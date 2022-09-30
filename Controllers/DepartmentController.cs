@@ -68,7 +68,8 @@ namespace CRUD.Controllers
                     FormName = "Department",
                     Action = obj.DeptId == 0 ? "CREATE" : "UPDATE",
                     Status = deptbj.isSucessful ? "SUCCESS" : "ERROR",
-                    Description = "Track User Activity"
+                    Description = "Track User Activity",
+                    LoggedBy = obj.CreatedBy
 
                 });
                 return SucessResponse(deptbj);
@@ -91,7 +92,8 @@ namespace CRUD.Controllers
                     FormName = "Department",
                     Action = emobj.isSucessful ? "DELETE" : "ERROR",
                     Status = emobj.isSucessful ? "SUCCESS" : "ERROR",
-                    Description = "Track User Activity while deleting..!"
+                    Description = "Track User Activity while deleting..!",
+                    LoggedBy =1
 
                 });
                 return SucessResponse(emobj);

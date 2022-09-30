@@ -65,7 +65,7 @@ namespace CRUD
             });
 
 
-            services.AddScoped<IJWTManagerRepository, JWTManagerRepository>();
+               services.AddScoped<IJWTManagerRepository, JWTManagerRepository>();
             services.AddScoped<IDepartment, DepartmentRepo>();
             services.AddScoped<IEmp, EmployeeRepo>();
             services.AddScoped<ILogService, LogServiceRepo>();

@@ -9,6 +9,6 @@ namespace CRUD.Interfaces
 {
    public interface IJWTManagerRepository
     {
-        Tokens Authenticate(AppUser users);   /// pass user as object and return tokens in token class
+        Tokens Authenticate(AppUser users);   
     }
 }

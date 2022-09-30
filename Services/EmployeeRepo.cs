@@ -32,7 +32,7 @@ namespace CRUD.Services
 
                 throw;
             }
-          
+
         }
 
         public DataTable GetEmpList()
@@ -40,7 +40,7 @@ namespace CRUD.Services
             try
             {
                 DataAccessLayer dac = new DataAccessLayer();
-                var obj = dac.ExecuteSP("sp_GetAllEmployee");  
+                var obj = dac.ExecuteSP("sp_GetAllEmployee");
                 return obj;
             }
             catch (Exception)
@@ -48,7 +48,7 @@ namespace CRUD.Services
 
                 throw;
             }
-            
+
         }
 
         public DataTable GetEmpById(int EmpId)
@@ -88,13 +88,14 @@ namespace CRUD.Services
                 empobj.EmpStatusId = obj.EmpStatusId;
                 if (obj.EmpId == 0)
                 {
-                    empobj.CreatedBy = 1;
+                    empobj.CreatedBy = obj.CreatedBy;
+
                     empobj.CreatedDate = DateTime.Now;
                     _context.Employee.Add(empobj);
                 }
                 else
                 {
-                    empobj.ModifiedBy = 1;
+                    empobj.ModifiedBy = obj.CreatedBy; // both are managed by single field
                     empobj.ModifiedDate = DateTime.Now;
                 }
 
@@ -107,7 +108,7 @@ namespace CRUD.Services
 
                 throw;
             }
-            
+
         }
 
         public DataTable GetAllEmployeeType()

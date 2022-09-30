@@ -84,13 +84,13 @@ namespace CRUD.Services
 
                 if (obj.DeptId == 0)
                 {
-                    deptobj.CreatedBy = 1;
+                    deptobj.CreatedBy = obj.CreatedBy;
                     deptobj.CreatedDate = DateTime.Now;
                     _context.Department.Add(deptobj);
                 }
                 else
                 {
-                    deptobj.ModifiedBy = 1;
+                    deptobj.ModifiedBy = obj.CreatedBy;   //both are managed by single property
                     deptobj.ModifiedDate = DateTime.Now;
                 }
                 _context.SaveChanges();

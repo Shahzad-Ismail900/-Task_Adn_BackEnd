@@ -114,4 +114,3 @@ D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\Task\BackEnd\CRUD\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Task\BackEnd\CRUD\obj\Debug\net5.0\CRUD.csproj.AssemblyReference.cache

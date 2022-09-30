@@ -11,5 +11,6 @@ namespace CRUD.Models
         public string Status { get; set; }
         public string Description { get; set; }
         public DateTime? LogTime { get; set; }
+        public int? LoggedBy { get; set; }
     }
 }
